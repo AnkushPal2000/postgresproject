@@ -5,7 +5,7 @@ const conn = new Client({
   user: "postgres",
   port: 5432,
   password: "1312",
-  database: "AnkushDB",
+  database: "ankushdb",
 });
 
 conn
