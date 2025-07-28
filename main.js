@@ -4,7 +4,7 @@ const conn = new Client({
   host: "my-postgres-db.cp80oomgqvqs.ap-south-1.rds.amazonaws.com",
   user: "postgres",
   port: 5432,
-  password: "123456789",
+  password: "123456780",
   database: "ankushdb",
 });
 
