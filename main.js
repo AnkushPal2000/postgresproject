@@ -1,11 +1,11 @@
 const { Client } = require("pg");
 
 const conn = new Client({
-  host: "my-postgres-db.cp80oomgqvqs.ap-south-1.rds.amazonaws.com",
+  host: "database-1.cp80oomgqvqs.ap-south-1.rds.amazonaws.com",
   user: "postgres",
   port: 5432,
   password: "123456789",
-  database: "ankushdb",
+  database: "database-1",
   ssl: {
     rejectUnauthorized: false,
   },
