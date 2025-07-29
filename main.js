@@ -16,14 +16,14 @@ conn
   .then(() => {
     console.log("Connected to the database successfully!");
 
-    // conn.query("SELECT * FROM demotable", (err, res) => {
-    //   if (!err) {
-    //     console.log("Query results:", res.rows);
-    //   } else {
-    //     console.error("Query error:", err);
-    //   }
-    //   conn.end(); // Only end after query completes
-    // });
+    conn.query("SELECT * FROM demo", (err, res) => {
+      if (!err) {
+        console.log("Query results:", res.rows);
+      } else {
+        console.error("Query error:", err);
+      }
+      conn.end(); // Only end after query completes
+    });
   })
   .catch((err) => {
     console.error("Connection error:", err.stack);
