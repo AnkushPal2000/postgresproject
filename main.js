@@ -5,7 +5,7 @@ const conn = new Client({
   user: "postgres",
   port: 5432,
   password: "mydatabase",
-  database: "ankushdb",
+  database: "postgres",
   // ssl: {
   //   rejectUnauthorized: false,
   // },
